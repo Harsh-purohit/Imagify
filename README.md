@@ -57,12 +57,12 @@ npm install
 ### 3. Environment Variables
 - Create .env files in both the client and server directories.
 #### Client .env
-VITE_BACKEND_URL=http://localhost:4000
+- VITE_BACKEND_URL=http://localhost:4000
 
 #### Server .env
-POSTGRE_URL=your_postgresql_connection_string
-JWT_SECRET_KEY=your_jwt_secret_key
-CLIPDROP_API=your_clipdrop_api_key
+- POSTGRE_URL=your_postgresql_connection_string
+- JWT_SECRET_KEY=your_jwt_secret_key
+- CLIPDROP_API=your_clipdrop_api_key
 
 ### Run the Application:
 - Backend:
